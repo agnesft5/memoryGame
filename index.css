@@ -137,7 +137,7 @@ a:hover{
         padding: 5%;
     }
     .thank__container{
-        bottom: 23vh;
+        bottom: 18vh;
     }
     .main__title{
     font-size: 2.5rem;
@@ -163,13 +163,13 @@ a:hover{
         padding: 5%;
     }
     .thank__container{
-        bottom: 20vh; 
+        bottom: 16vh; 
     }
 }
 /*Mobile - Small devices */
 @media (max-width: 360px){
     .thank__container{
-        bottom: 20vh; 
+        bottom: 16vh; 
     }
     .table{
         height: 240px;
