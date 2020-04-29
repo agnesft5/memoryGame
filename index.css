@@ -76,3 +76,95 @@ a:hover{
     text-decoration: underline;
     text-decoration-color: rgba(212, 85, 30, 1);
 }
+.thank__container{
+    position: absolute; 
+    bottom: 2vh; 
+    right: 2vw; 
+    width: 100%;
+}
+@media (max-width: 1300px) and (min-height: 950px){
+    .score__container{
+        margin: 2.5%!important;
+    }
+}
+/*iPad Pro*/
+@media (max-width: 1024px) and (min-height: 1336px){
+    .thank__container{
+        position: absolute; 
+        bottom: 35vh; 
+    }
+    .main__title{
+        margin: 5% !important;
+    }
+    .thank__container{
+        bottom: 25vh;
+    }
+    a, a:hover {
+        padding: 5%;
+        font-size: 1rem;
+    }
+}
+/*iPad*/
+@media (max-width: 768px) and (min-height: 1024px){
+    .thank__container{
+        position: absolute; 
+        bottom: 20vh; 
+    }
+    .table{
+        height: 577px;
+        width: 577px;
+    }
+}
+/*Mobile - Big devices*/
+@media (max-width: 576px){
+    .table{
+        height: 310px;
+        width: 310px;
+    }
+    .score__container{
+        margin: 7% !important;
+    }
+    a, a:hover{
+        font-size: .7rem;
+        padding: 5%;
+    }
+    .thank__container{
+        bottom: 23vh;
+    }
+    .main__title{
+    font-size: 2.5rem;
+    margin: 2.5%;
+    margin-top: 5%;
+    }
+}
+/*Mobile - Medium devices */
+@media (max-width: 375px){
+    .score__container{
+        margin: 7% !important;
+    }
+    .table{
+        height: 282px;
+        width: 282px;
+    }
+    a, a:hover{
+        font-size: .7rem;
+        padding: 5%;
+    }
+    .thank__container{
+        bottom: 20vh; 
+    }
+}
+/*Mobile - Small devices */
+@media (max-width: 360px){
+    .thank__container{
+        bottom: 20vh; 
+    }
+    .table{
+        height: 240px;
+        width: 240px;
+    }
+    a, a:hover{
+        padding: 5%;
+        font-size: .6rem;
+    }
+}
