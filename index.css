@@ -137,12 +137,12 @@ a:hover{
         padding: 5%;
     }
     .thank__container{
-        bottom: 18vh;
+        bottom: 5vh;
     }
     .main__title{
-    font-size: 2.5rem;
-    margin: 2.5%;
-    margin-top: 5%;
+        font-size: 2.5rem;
+        margin: 2.5%;
+        margin-top: 5%;
     }
 }
 /*Mobile - Medium devices */
@@ -163,13 +163,13 @@ a:hover{
         padding: 5%;
     }
     .thank__container{
-        bottom: 16vh; 
+        bottom: 5vh; 
     }
 }
 /*Mobile - Small devices */
 @media (max-width: 360px){
     .thank__container{
-        bottom: 16vh; 
+        bottom: 5vh; 
     }
     .table{
         height: 240px;
