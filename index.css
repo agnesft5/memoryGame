@@ -114,12 +114,20 @@ a:hover{
         height: 577px;
         width: 577px;
     }
+    .card__width {
+        width: 143px;
+        height: 143px;
+    }
 }
 /*Mobile - Big devices*/
 @media (max-width: 576px){
     .table{
         height: 310px;
         width: 310px;
+    }
+    .card__width{
+        width: 76px;
+        height: 76px;
     }
     .score__container{
         margin: 7% !important;
@@ -146,6 +154,10 @@ a:hover{
         height: 282px;
         width: 282px;
     }
+    .card__width{
+        width: 69px;
+        height: 69px;
+    }
     a, a:hover{
         font-size: .7rem;
         padding: 5%;
@@ -162,6 +174,10 @@ a:hover{
     .table{
         height: 240px;
         width: 240px;
+    }
+    .card__width{
+        width: 59px;
+        height: 59px;
     }
     a, a:hover{
         padding: 5%;
